@@ -17,7 +17,7 @@ public class Armstrong {
 			num2=num%10;
 			add=add+(num2*num2*num2);
 		}
-		
+		System.out.println("is armstrong");
 	}
 
 }
