@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching Browser, Please Wait]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Initialising POM classes]]>
+    </line>
+    <line>
+      <![CDATA[Taking User Details from Properties File]]>
+    </line>
+    <line>
+      <![CDATA[Entering UserID]]>
+    </line>
+    <line>
+      <![CDATA[Entering Password]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for LoginButton to sync]]>
+    </line>
+    <line>
+      <![CDATA[Entering PIN]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for ContinueButton to sync]]>
+    </line>
+    <line>
+      <![CDATA[Validating UserID, Please wait]]>
+    </line>
+    <line>
+      <![CDATA[Validated UserID successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logging out from Kite]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from Kite Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Closing Browser]]>
+    </line>
+    <line>
+      <![CDATA[Closed Browser Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-04-10T23:56:59 IST" name="Default suite" finished-at="2022-04-10T23:57:07 IST" duration-ms="7507">
+    <groups>
+    </groups>
+    <test started-at="2022-04-10T23:56:59 IST" name="Default test" finished-at="2022-04-10T23:57:07 IST" duration-ms="7507">
+      <class name="kiteUsingProperties.KiteUsingProperties">
+        <test-method is-config="true" signature="LaunchingBrowser()[pri:0, instance:kiteUsingProperties.KiteUsingProperties@576d5deb]" started-at="2022-04-10T23:56:59 IST" name="LaunchingBrowser" finished-at="2022-04-10T23:57:03 IST" duration-ms="4027" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Browser, Please Wait]]>
+            </line>
+            <line>
+              <![CDATA[Browser Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Initialising POM classes]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchingBrowser -->
+        <test-method is-config="true" signature="enterUserDetails()[pri:0, instance:kiteUsingProperties.KiteUsingProperties@576d5deb]" started-at="2022-04-10T23:57:03 IST" name="enterUserDetails" finished-at="2022-04-10T23:57:04 IST" duration-ms="661" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Taking User Details from Properties File]]>
+            </line>
+            <line>
+              <![CDATA[Entering UserID]]>
+            </line>
+            <line>
+              <![CDATA[Entering Password]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for LoginButton to sync]]>
+            </line>
+            <line>
+              <![CDATA[Entering PIN]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for ContinueButton to sync]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterUserDetails -->
+        <test-method signature="ValidateUser()[pri:0, instance:kiteUsingProperties.KiteUsingProperties@576d5deb]" started-at="2022-04-10T23:57:04 IST" name="ValidateUser" finished-at="2022-04-10T23:57:06 IST" duration-ms="1675" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating UserID, Please wait]]>
+            </line>
+            <line>
+              <![CDATA[Validated UserID successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateUser -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:kiteUsingProperties.KiteUsingProperties@576d5deb]" started-at="2022-04-10T23:57:06 IST" name="Logout" finished-at="2022-04-10T23:57:06 IST" duration-ms="861" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logging out from Kite]]>
+            </line>
+            <line>
+              <![CDATA[Logged out from Kite Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="closeAndExit()[pri:0, instance:kiteUsingProperties.KiteUsingProperties@576d5deb]" started-at="2022-04-10T23:57:06 IST" name="closeAndExit" finished-at="2022-04-10T23:57:07 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing Browser]]>
+            </line>
+            <line>
+              <![CDATA[Closed Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeAndExit -->
+      </class> <!-- kiteUsingProperties.KiteUsingProperties -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
